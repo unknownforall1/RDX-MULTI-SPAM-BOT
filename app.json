@@ -1,7 +1,7 @@
 {
-  "name": "YUKKI SPAM USERBOT",
-  "description": "A Powerful Telegram Spam Userbot.",
-  "logo": "https://telegra.ph/file/bf6f67d9f1f1106ca4dce.jpg",
+  "name": "RDX MULTI SPAM BOT",
+  "description": "A POWERFULL AND FAST SPAM BOT BY RDX.",
+  "logo": "https://telegra.ph/file/c6d5a3802c0f0a7061a34.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -9,11 +9,6 @@
   ],
     "env": {
       "STRING": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "API_ID": {
         "description": "Telethon String Session",
         "value": "",
         "required": true
@@ -62,6 +57,36 @@
         "description": "Telethon String Session",
         "value": "",
         "required": false
+      },
+      "STRING11": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING12": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING13": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING14": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING15": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "API_ID": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": true
       },
       "API_HASH": {
         "description": "Api Hash",
