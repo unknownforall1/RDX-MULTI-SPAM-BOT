@@ -7,7 +7,7 @@
 ## 🚀 Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Funknownforall1%2FRDX-MULTI-SPAM-BOT)
 
-You can Use these [API ID and API HASH](https://t.me/OfficialYukki/135) while deploying
+You can Use these [API ID and API HASH](https://t.me/RDX_OFFICIAL_BOT/2) while deploying
 
 ## String Session
 No Requirement of API ID and API HASH
