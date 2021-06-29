@@ -854,7 +854,7 @@ async def _(event):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@llk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @mkk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @sid.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 async def _(e):
