@@ -1027,6 +1027,26 @@ async def restart(e):
             await edk.disconnect()
         except Exception as e:
             pass
+        try:
+            await vkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await kkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await lkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await mkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await sid.disconnect()
+        except Exception as e:
+            pass
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
 
