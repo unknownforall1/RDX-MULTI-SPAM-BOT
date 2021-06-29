@@ -30,7 +30,7 @@ tenth = STRING10
 eleve = STRING11
 twelv = STRING12
 thirt = STRING13
-forte = STRING14
+fffff = STRING14
 fifth = STRING15
 
 
@@ -406,8 +406,8 @@ async def start_yukki():
             pass 
         
     
-    if forte:
-        session_name = str(forte)
+    if fffff:
+        session_name = str(fffff)
         print("String 14 Found")
         mkk = TelegramClient(StringSession(session_name), a, b)
         try:
