@@ -329,7 +329,7 @@ async def start_yukki():
         
     
     if eleve:
-        session_name = str(smexx)
+        session_name = str(eleve)
         print("String 11 Found")
         vkk = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -355,7 +355,7 @@ async def start_yukki():
         
     
     if twelv:
-        session_name = str(ninth)
+        session_name = str(twelv)
         print("String 12 Found")
         kkk = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -381,7 +381,7 @@ async def start_yukki():
     
   
     if thirt:
-        session_name = str(tenth)
+        session_name = str(thirt)
         print("String 13  Found")
         lkk = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -407,7 +407,7 @@ async def start_yukki():
         
     
     if forte:
-        session_name = str(smexx)
+        session_name = str(forte)
         print("String 14 Found")
         mkk = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -433,7 +433,7 @@ async def start_yukki():
         
     
     if fifth:
-        session_name = str(smexx)
+        session_name = str(fifth)
         print("String 15 Found")
         sid = TelegramClient(StringSession(session_name), a, b)
         try:
