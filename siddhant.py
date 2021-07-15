@@ -549,7 +549,7 @@ async def start_yukki():
         aan = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 17")
-            await aam.start()
+            await aan.start()
             botme = await aan.get_me()
             await aan(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
             await aan(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
