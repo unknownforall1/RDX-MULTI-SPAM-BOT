@@ -133,6 +133,16 @@
         "value": "",
         "required": false
       },
+      "USERNAME": {
+        "description": "COMING SOON",
+        "value": "YOUR USERNAME",
+        "required": false
+      },
+      "ALIVE_NAME": {
+        "description": "COMING SOON",
+        "value": "YOUR NAME",
+        "required": false
+      },
       "API_ID": {
         "description": "Telethon String Session",
         "value": "",
