@@ -134,27 +134,27 @@
         "required": false
       },
       "USERNAME": {
-        "description": "COMING SOON",
-        "value": "YOUR USERNAME",
+        "description": "AAA GYA YAHA USERNAME DALO BINA @ LIKE SIDDHANT_DEVIL",
+        "value": "SIDDHANT_DEVIL",
         "required": false
       },
       "ALIVE_NAME": {
-        "description": "COMING SOON",
-        "value": "YOUR NAME",
+        "description": "AA GYA HAI AB APNA NAME DALO YAHA JAISE NICHE H ",
+        "value": "𝐒𝐈𝐃𝐃𝐇𝐀𝐍𝐓 𝐎𝐏",
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "APP ID DALO BHAI",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Api Hash",
+        "description": "API HAS DALO YARR",
         "value": "",
         "required": true
       },
       "SUDO": {
-        "description": "Sudo Users Id",
+        "description": "SUDO USERS ID MERA BHI DAL LENA ACHHA HU DIL KA ",
         "value": "",
         "required": true
       }
