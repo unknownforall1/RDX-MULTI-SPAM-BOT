@@ -830,11 +830,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(yukki[0])
-            text = "Changing Bio"
+            text = "KRR RHAA HU 😉"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By MULTI SPAMBOT")
+                await event.edit("HO GYA BHAI YARR🤑")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -872,11 +872,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "Joining..."
+            text = "GHUSANE ME TIME LAGEGA SORRY GHUSNE ME..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("OH SED GHUSH GYA MAI TO 😬")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -916,11 +916,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = yukki[0]
-            text = "Joining...."
+            text = "GHUSH RHA WAIT"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("GHUSA DIYE YARR TUM ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1413,12 +1413,50 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = "ruko ruko rdx hu phatunga to chodunga !"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😬𝗟𝗜𝗡𝗚!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"😬𝗟𝗜𝗡𝗚!\n`{ms}` 𝗺𝘀 [{ALIVE_NAME}](https://t.me/{USERNAME})")
 
+
+
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+
+       
+
+
+async def alive(e):
+    if e.sender_id in SMEX_USERS:
+        text = "THODA RUKO YARR🤧"
+        event = await e.reply(text, parse_mode=None, link_preview=None )
+        await event.edit(f"👑𝐌𝐀𝐒𝐓𝐄𝐑👑😈[{ALIVE_NAME}](https://t.me/{USERNAME})😈 ┣━━•➳➠  𝐉𝐎𝐈𝐍 𝐅𝐎𝐑 ➪ [𝐑𝐄𝐏𝐎](https://t.me/rdx_official_bot) ")
 
 
         
