@@ -58,77 +58,77 @@
         "value": "",
         "required": false
       },
-      "STRING 11": {
+      "STRING11": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 12": {
+      "STRING12": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 13": {
+      "STRING13": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 14": {
+      "STRING14": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 15": {
+      "STRING15": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 16": {
+      "STRING16": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 17": {
+      "STRING17": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 18": {
+      "STRING18": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 19": {
+      "STRING19": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 20": {
+      "STRING20": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 21": {
+      "STRING21": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 22": {
+      "STRING22": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 23": {
+      "STRING23": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 24": {
+      "STRING24": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
       },
-      "STRING 25": {
+      "STRING25": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
@@ -155,7 +155,7 @@
       },
       "SUDO": {
         "description": "SUDO USERS ID MERA BHI DAL LENA ACHHA HU DIL KA ",
-        "value": "",
+        "value": "1666692415",
         "required": true
       }
   },
