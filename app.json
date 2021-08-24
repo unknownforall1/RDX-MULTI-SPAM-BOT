@@ -6,11 +6,10 @@
     "spambot",
     "telegram",
     "userbot",
-    "Unknown for all",
-    "Rdx spam bot telegram ",
-    "rdx bot",
-    "telegram bot"
-
+    "Unknown-for-all",
+    "Rdx-spam-bot-telegram",
+    "rdx-bot",
+    "telegram-bot"
   ],
     "env": {
       "STRING": {
