@@ -2,6 +2,8 @@
 
 ## MODIFIED OF [YUKKI MULTI SPAM  BOT](https://github.com/YukkiBot/YukkiMultiSpamBot)
 
+# 𝐃𝐄𝐒𝐈𝐆𝐍 𝐁𝐘  [𝐕𝐢𝐕𝐞𝐊 𝐑𝐨́𝐘](https://t.me/D3VIL_kING_OFFICIAL)
+
 ## 𝐌𝐎𝐃𝐈𝐅𝐈𝐄𝐃 𝐁𝐘 
    - [𝐒𝐈𝐃𝐃𝐇𝐀𝐍𝐓](https://t.me/siddhant_devil)
    - [𝐀𝐊𝐄𝐄𝐋](https://t.me/rdx_fighter)
