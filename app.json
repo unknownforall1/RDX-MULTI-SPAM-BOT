@@ -137,6 +137,81 @@
         "value": "",
         "required": false
       },
+      "STRING26": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": true
+      },
+      "STRING27": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING28": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING29": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING30": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING31": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING32": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING33": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING34": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING35": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING36": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING37": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING38": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING39": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+      "STRING40": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
       "USERNAME": {
         "description": "AAA GYA YAHA USERNAME DALO BINA @ LIKE SIDDHANT_DEVIL",
         "value": "SIDDHANT_DEVIL",
