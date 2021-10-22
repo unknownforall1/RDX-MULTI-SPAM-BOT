@@ -6,7 +6,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import STRING, ALIVE_NAME, USERNAME, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 
+from Config import STRING, ALIVE_NAME, USERNAME, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25, STRING26, STRING27, STRING28 ,STRING29, STRING30, STRING31, STRING32 ,STRING33, STRING34, STRING35, STRING36 , STRING37 , STRING38 , STRING39 , STRING40
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -42,6 +42,21 @@ baish = STRING22
 teish = STRING23
 tfour = STRING24
 tfive = STRING25
+steeee = STRING26
+sheeee = STRING27
+eleeee = STRING28
+npeeee = STRING29
+pizza = STRING30
+bimsish = STRING31
+kimish = STRING32
+kaju = STRING33
+katli = STRING34
+papadi = STRING35
+sieeee = STRING36
+seeeee = STRING37
+eieeee = STRING38
+nieeee = STRING39
+nunni = STRING40
 
 
 idk = ""
@@ -69,6 +84,21 @@ yaa = ""
 dav = ""
 raj = ""
 put = ""
+idg = ""
+ydg = ""
+wdg = ""
+sdg = ""
+hdg = ""
+adg = ""
+bdg = ""
+cdg = ""
+edg = ""
+ddg = ""
+vgg = ""
+ggg = ""
+lgg = ""
+mgg = ""
+kit = ""
 
 
 que = {}
@@ -103,6 +133,21 @@ async def start_yukki():
     global dav
     global raj
     global put
+    global idg
+    global ydg
+    global wdg
+    global sdg
+    global hdg
+    global adg
+    global bdg
+    global cdg
+    global ddg
+    global edg
+    global vgg
+    global ggg
+    global lgg
+    global mgg
+    global kit
     
     if smex:
         session_name = str(smex)
@@ -776,6 +821,415 @@ async def start_yukki():
             await put.start()
         except Exception as e:
             pass
+    if steeee:
+        session_name = str(steeee)
+        print("String 26 Found")
+        idg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 26")
+            await idg.start()
+            botme = await idg.get_me()
+            await idg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await idg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await idg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await idg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            idg = "steeee"
+            print(e)
+            pass
+    else:
+        print("Session 26 not Found")
+        session_name = "startup"
+        idg = TelegramClient(session_name, a, b)
+        try:
+            await idg.start()
+        except Exception as e:
+            pass
+   
+    if sheeee:
+        session_name = str(sheeee)
+        print("String 27 Found")
+        ydg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 27")
+            await ydg.start()
+            await ydg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await ydg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await ydg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await ydg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await ydg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 27 not Found")
+        pass
+        session_name = "startup"
+        ydg = TelegramClient(session_name, a, b)
+        try:
+            await ydg.start()
+        except Exception as e:
+            pass
+
+    if eleeee:
+        session_name = str(eleeee)
+        print("String 28 Found")
+        wdg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 28")
+            await  wdg.start()
+            await wdg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await wdg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await wdg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await wdg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await wdg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 28 not Found")
+        pass
+        session_name = "startup"
+        wdg = TelegramClient(session_name, a, b)
+        try:
+            await wdg.start()
+        except Exception as e:
+            pass
+
+    if npeeee:
+        session_name = str(npeeee)
+        print("String 29 Found")
+        hdg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 29")
+            await hdg.start()
+            await hdg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await hdg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await hdg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await hdg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await hdg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 29 not Found")
+        pass
+        session_name = "startup"
+        hdg = TelegramClient(session_name, a, b)
+        try:
+            await hdg.start()
+        except Exception as e:
+            pass
+
+    if pizza:
+        session_name = str(pizza)
+        print("String 30 Found")
+        sdg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 30")
+            await sdg.start()
+            await sdg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await sdg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await sdg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await sdg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await sdg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 30 not Found")
+        pass
+        session_name = "startup"
+        sdg = TelegramClient(session_name, a, b)
+        try:
+            await sdg.start()
+        except Exception as e:
+            pass
+                  
+    if bimsish:
+        session_name = str(bimsish)
+        print("String 31 Found")
+        adg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 31")
+            await adg.start()
+            await adg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await adg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await adg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await adg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await adg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 31 not Found")
+        pass
+        session_name = "startup"
+        adg = TelegramClient(session_name, a, b)
+        try:
+            await adg.start()
+        except Exception as e:
+            pass
+
+    if kimish:
+        session_name = str(kimish)
+        print("String 32 Found")
+        bdg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 32")
+            await bdg.start()
+            await bdg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await bdg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await bdg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await bdg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await bdg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 32 not Found")
+        pass
+        session_name = "startup"
+        bdg = TelegramClient(session_name, a, b)
+        try:
+            await bdg.start()
+        except Exception as e:
+            pass    
+        
+    
+    if kaju:
+        session_name = str(kaju)
+        print("String 33 Found")
+        cdg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 33")
+            await cdg.start()
+            await cdg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await cdg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await cdg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await cdg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await cdg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 33 not Found")
+        pass
+        session_name = "startup"
+        cdg = TelegramClient(session_name, a, b)
+        try:
+            await cdg.start()
+        except Exception as e:
+            pass   
+        
+    if katli:
+        session_name = str(katli)
+        print("String 34 Found")
+        ddg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 34")
+            await ddg.start()
+            await ddg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await ddg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await ddg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await ddg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await ddg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 34 not Found")
+        pass
+        session_name = "startup"
+        ddg = TelegramClient(session_name, a, b)
+        try:
+            await ddg.start()
+        except Exception as e:
+            pass   
+    
+  
+    if papadi:
+        session_name = str(papadi)
+        print("String 35 Found")
+        edg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 35")
+            await edg.start()
+            await edg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await edg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await edg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await edg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await edg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 35 not Found")
+        pass
+        session_name = "startup"
+        edg = TelegramClient(session_name, a, b)
+        try:
+            await edg.start()
+        except Exception as e:
+            pass 
+        
+    
+    if sieeee:
+        session_name = str(sieeee)
+        print("String 36 Found")
+        vgg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 36")
+            await vgg.start()
+            await vgg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await vgg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await vgg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await vgg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await vgg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 36 not Found")
+        pass
+        session_name = "startup"
+        vgg = TelegramClient(session_name, a, b)
+        try:
+            await vgg.start()
+        except Exception as e:
+            pass
+        
+    
+    if seeeee:
+        session_name = str(seeeee)
+        print("String 37 Found")
+        ggg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 37")
+            await ggg.start()
+            await ggg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await ggg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await ggg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await ggg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await ggg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 37 not Found")
+        pass
+        session_name = "startup"
+        ggg = TelegramClient(session_name, a, b)
+        try:
+            await ggg.start()
+        except Exception as e:
+            pass   
+    
+  
+    if eieeee:
+        session_name = str(eieeee)
+        print("String 38  Found")
+        lgg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 38")
+            await lgg.start()
+            await lgg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await lgg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await lgg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await lgg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await lgg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 38 not Found")
+        pass
+        session_name = "startup"
+        lgg = TelegramClient(session_name, a, b)
+        try:
+            await lgg.start()
+        except Exception as e:
+            pass 
+        
+    
+    if nieeee:
+        session_name = str(nieeee)
+        print("String 39 Found")
+        mgg = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 39")
+            await mgg.start()
+            await mgg(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await mgg(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await mgg(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await mgg(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await mgg.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 39 not Found")
+        pass
+        session_name = "startup"
+        mgg = TelegramClient(session_name, a, b)
+        try:
+            await mgg.start()
+        except Exception as e:
+            pass
+    if nunni:
+        session_name = str(nunni)
+        print("String 40 Found")
+        kit = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 40")
+            await kit.start()
+            await kit(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await kit(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await kit(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await kit(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            botme = await kit.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            steeee_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 40 not Found")
+        pass
+        session_name = "startup"
+        kit = TelegramClient(session_name, a, b)
+        try:
+            await kit.start()
+        except Exception as e:
+            pass
    
    
 loop = asyncio.get_event_loop()
@@ -823,6 +1277,22 @@ async def gifspam(e, smex):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
@@ -865,6 +1335,22 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
@@ -907,6 +1393,22 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 
 
 
@@ -952,6 +1454,22 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
@@ -998,6 +1516,22 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 10000 count. For bigger spams use BigSpam."
@@ -1054,6 +1588,23 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
@@ -1119,6 +1670,22 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
@@ -1180,6 +1747,22 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
@@ -1247,7 +1830,21 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True))
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
-
+@idg.on(events.NewMessage(incoming=True))
+@ydg.on(events.NewMessage(incoming=True))
+@wdg.on(events.NewMessage(incoming=True))
+@hdg.on(events.NewMessage(incoming=True))
+@sdg.on(events.NewMessage(incoming=True))
+@adg.on(events.NewMessage(incoming=True))
+@bdg.on(events.NewMessage(incoming=True))
+@cdg.on(events.NewMessage(incoming=True))
+@edg.on(events.NewMessage(incoming=True))
+@ddg.on(events.NewMessage(incoming=True))
+@vgg.on(events.NewMessage(incoming=True))
+@ggg.on(events.NewMessage(incoming=True))
+@lgg.on(events.NewMessage(incoming=True))
+@mgg.on(events.NewMessage(incoming=True))
+@kit.on(events.NewMessage(incoming=True))
 
 async def _(event):
     global que
@@ -1289,6 +1886,22 @@ async def _(event):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 
 
 async def _(e):
@@ -1348,6 +1961,22 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 
 async def _(e):
     global que
@@ -1409,6 +2038,22 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1448,6 +2093,22 @@ async def ping(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 
        
 
@@ -1487,6 +2148,23 @@ async def alive(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
@@ -1564,6 +2242,22 @@ async def restart(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@idg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@ydg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@wdg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@sdg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@adg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bdg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@cdg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@edg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@hdg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@ddg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@vgg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@ggg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@lgg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@mgg.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kit.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
@@ -1782,5 +2476,65 @@ else:
         pass
     try:
         put.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        idg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ydg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        wdg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        hdg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        sdg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        adg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bdg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        cdg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        edg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ddg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        vgg.disconnect()
+    except Exception as e:
+        pass 
+    try:
+        ggg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        lgg.disconnect()
+    except Exception as e:
+        pass 
+    try:
+        mgg.disconnect()
+    except Exception as e:
+        pass
+    try:
+        kit.disconnect()
     except Exception as e:
         pass
