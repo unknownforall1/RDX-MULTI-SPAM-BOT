@@ -6,9 +6,14 @@
 
 ## 𝐌𝐎𝐃𝐈𝐅𝐈𝐄𝐃 𝐁𝐘 
    - [𝐒𝐈𝐃𝐃𝐇𝐀𝐍𝐓](https://t.me/siddhant_devil)
-   - [𝐀𝐊𝐄𝐄𝐋](https://t.me/rdx_fighter)
-## 🚀 Deploy on Heroku 
 
+## ❌Deploy is not safe❌
+
+### Deploy on your risk                                     
+
+
+## 🚀 Deploy on Heroku 
+    
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Funknownforall1%2FRDX-MULTI-SPAM-BOT)
 
 
@@ -25,14 +30,14 @@ No Requirement of API ID and API HASH
    - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/YukkiBot/YukkiSpamBot)](https://replit.com/@unknownforall1/RDX-MULTI-SPAM-BOT)
 
 
-#### Message me on telegram [UNKNOWN](https://t.me/xxxxxxx_UNKNOWN_xxxxxxx)
+#### Message me on telegram [ViveK](https://t.me/Don_owner)
 
 
 # FEATURES
 
    - DEPLOY ON 40 ACCOUNTS AT A SAME TIME 
 
-   - SPAM SPEED OP ( YUKKI BOT KA MODIFIED HAI HOGA HI ) 
+   - SPAM SPEED OP
 
    - REPLYRAID , RAID PLUGIN  , ALIVE 
 
@@ -42,12 +47,12 @@ No Requirement of API ID and API HASH
 
 
 ## SUPPORT GROUP
-   - Join [RDX GROUP](@RDX_ON_FIRE) for any assistance.
+   - Join [RDX GROUP](https://t.me/don_owmer) for any assistance.
 
 
 ## JOIN SUPPORT CHANNEL
-   - Join [RDX SUPPORT CHANNEL](@RDX_OFFICIAL_BOT).
+   - Join [RDX SUPPORT CHANNEL](https://t.me/don_owmer).
 
 
 ## Credits
-   - Thanks to [Yukki Team](https://t.me/officialyukki).
+   - Thanks to [Yukki Team](https://t.me/don_owmer).
