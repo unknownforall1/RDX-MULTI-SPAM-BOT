@@ -1,13 +1,12 @@
 # RDX MULTI DEPLOY BOT
 
-## MODIFIED OF [YUKKI MULTI SPAM  BOT](https://github.com/YukkiBot/YukkiMultiSpamBot)
+## utils deleted so fork this repo and create your own utils file then deploy 
 
-# 𝐃𝐄𝐒𝐈𝐆𝐍 𝐁𝐘  [𝐕𝐢𝐕𝐞𝐊 𝐑𝐨́𝐘](https://t.me/D3VIL_kING_OFFICIAL)
+# 𝐃𝐄𝐒𝐈𝐆𝐍 𝐁𝐘  [𝐕𝐢𝐕𝐞𝐊 𝐑𝐨́𝐘](https://t.me/siddhant_devil)
 
 ## 𝐌𝐎𝐃𝐈𝐅𝐈𝐄𝐃 𝐁𝐘 
    - [𝐒𝐈𝐃𝐃𝐇𝐀𝐍𝐓](https://t.me/siddhant_devil)
 
-## ❌Deploy is not safe❌
 
 ### Deploy on your risk                                     
 
@@ -26,7 +25,7 @@
 ## String Session
 
 No Requirement of API ID and API HASH
-
+# this is not working properly now 😞 working on next  repl and repo project 
    - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/YukkiBot/YukkiSpamBot)](https://replit.com/@unknownforall1/RDX-MULTI-SPAM-BOT)
 
 
